@@ -1,0 +1,325 @@
+# ================================================================================
+# .gitignore for Data Science Portfolio - CSL Behring Application
+# ================================================================================
+
+# ================================================================================
+# Python
+# ================================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ================================================================================
+# R
+# ================================================================================
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# OAuth2 token
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# ================================================================================
+# Data Files (Large/Sensitive)
+# ================================================================================
+# Large datasets (use Git LFS if needed)
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.dat
+*.h5
+*.hdf5
+*.parquet
+
+# However, allow sample/demo data
+!sample_data.csv
+!demo_data.xlsx
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================================================================
+# Model Files
+# ================================================================================
+# Trained models (can be large)
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pb
+*.pth
+*.pt
+*.onnx
+models/*.h5
+models/*.pkl
+saved_models/
+
+# ================================================================================
+# Logs and Outputs
+# ================================================================================
+# Log files
+*.log
+logs/
+*.out
+
+# Output files
+outputs/
+results/
+temp/
+tmp/
+
+# ================================================================================
+# IDEs and Editors
+# ================================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# ================================================================================
+# OS Files
+# ================================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ================================================================================
+# Environment Variables and Secrets
+# ================================================================================
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secrets and credentials
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+config/secrets.yaml
+
+# API keys
+api_keys.txt
+api_keys.json
+
+# ================================================================================
+# Docker
+# ================================================================================
+docker-compose.override.yml
+
+# ================================================================================
+# Documentation Build Files
+# ================================================================================
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ================================================================================
+# Miscellaneous
+# ================================================================================
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files (unless they're release archives)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ================================================================================
+# Project-Specific
+# ================================================================================
+# Proprietary data (NEVER commit)
+proprietary_data/
+confidential/
+patient_data/
+clinical_data/
+
+# Large result files
+*.html
+*.pdf
+!docs/*.pdf
+!certifications/*.pdf
+
+# ================================================================================
+# Allow These Files
+# ================================================================================
+# README and documentation should always be included
+!README.md
+!LICENSE
+!requirements.txt
+!environment.yml
+
+# Sample/demo data for portfolio
+!data/sample_*.csv
+!data/demo_*.xlsx
+
+# Documentation PDFs
+!docs/CV_Resume.pdf
+!docs/Cover_Letter.pdf
+!certifications/*.pdf
