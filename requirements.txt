@@ -1,0 +1,93 @@
+# ================================================================================
+# Python Dependencies for CSL Behring Laboratory Data Science Portfolio
+# ================================================================================
+# Installation: pip install -r requirements.txt
+# ================================================================================
+
+# Core Data Science
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.1
+
+# Machine Learning
+scikit-learn==1.3.0
+tensorflow==2.13.0
+keras==2.13.1
+
+# Data Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# Statistical Analysis
+statsmodels==0.14.0
+pingouin==0.5.3
+
+# Bioinformatics & Biochemistry
+biopython==1.81
+rdkit==2023.3.2
+
+# Quality Control & Laboratory
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Database & Data Management
+sqlalchemy==2.0.19
+pymongo==4.4.1
+psycopg2-binary==2.9.6
+
+# API & Web
+requests==2.31.0
+beautifulsoup4==4.12.2
+flask==2.3.2
+
+# Image Processing (for analyzing gel images, Western blots)
+pillow==10.0.0
+opencv-python==4.8.0.74
+
+# Natural Language Processing (for literature analysis)
+nltk==3.8.1
+spacy==3.6.0
+
+# Advanced Analytics
+xgboost==1.7.6
+lightgbm==4.0.0
+
+# Time Series Analysis
+prophet==1.1.4
+pmdarima==2.0.3
+
+# Cloud Integration
+boto3==1.28.17  # AWS
+google-cloud-storage==2.10.0  # GCP
+azure-storage-blob==12.17.0  # Azure
+
+# Notebook & Development
+jupyter==1.0.0
+jupyterlab==4.0.5
+ipykernel==6.25.0
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Documentation
+sphinx==7.1.0
+sphinx-rtd-theme==1.3.0
+
+# Utilities
+tqdm==4.65.0
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# ================================================================================
+# R Package Equivalents (install.packages())
+# ================================================================================
+# tidyverse, ggplot2, dplyr, tidyr, readr, purrr, tibble, stringr, forcats
+# caret, randomForest, xgboost
+# shiny, shinydashboard, plotly
+# DBI, RPostgres, RMySQL
+# devtools, testthat, roxygen2
+# knitr, rmarkdown
+# BiocManager (for Bioconductor packages)
+# ================================================================================
